@@ -22,7 +22,7 @@ export default {
                 } else {
                     reject({ error: 'Error loading data' });
                 }               
-           }, 1000);
+           }, 10);
         });
     }
 }
